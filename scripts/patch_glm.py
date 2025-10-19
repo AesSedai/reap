@@ -15,16 +15,16 @@ def main():
     )
 
     # Download the full model into artifacts/models/<model_name>
-    model_name = "GLM-4.5-Air-FP8"
+    model_name = "GLM-4.6"
     artifacts_dir = os.path.normpath(
         os.path.join(script_dir, os.pardir, "artifacts", "models")
     )
     model_dir = os.path.join(artifacts_dir, model_name)
 
     snapshot_download(
-        repo_id="zai-org/GLM-4.5-Air",
+        repo_id="zai-org/GLM-4.6",
         repo_type="model",
-        revision="e7fdb9e0a52d2e0aefea94f5867c924a32a78d17",
+        revision="be72194883d968d7923a07e2f61681ea9a2826d1",
         local_dir=model_dir,
     )
 

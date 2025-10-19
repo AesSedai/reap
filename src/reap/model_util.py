@@ -190,6 +190,10 @@ def patched_model_map(model: str):
         patched = True
         model_name = "artifacts/models/GLM-4.5-Air-FP8"
 
+    if model == "zai-org/GLM-4.6":
+        patched = True
+        model_name = "artifacts/models/GLM-4.6"
+
     if model == "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8":
         patched = True
         model_name = "artifacts/models/Qwen3-Coder-480B-A35B-Instruct-FP8"

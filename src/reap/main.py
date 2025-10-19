@@ -751,7 +751,7 @@ def main():
             merge_args,
         )
 
-        if model_name == "artifacts/models/GLM-4.5-Air":
+        if model_name == "artifacts/models/GLM-4.5-Air" or model_name == "artifacts/models/GLM-4.6":
             # move modelling file
             source_file = pathlib.Path(model_name) / "modeling_glm4_moe.py"
             target_file = merged_model_dir / "modeling_glm4_moe.py"
