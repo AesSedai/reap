@@ -1,18 +1,18 @@
 [submodule "third-party/evalplus"]
 	path = third-party/evalplus
-	url = git@github.com:evalplus/evalplus.git
+	url = https://github.com/evalplus/evalplus.git
 [submodule "third-party/llm-compressor"]
 	path = third-party/llm-compressor
-	url = git@github.com:vllm-project/llm-compressor.git
+	url = https://github.com/vllm-project/llm-compressor.git
 [submodule "third-party/LiveCodeBench"]
 	path = third-party/LiveCodeBench
-	url = git@github.com:LiveCodeBench/LiveCodeBench.git
+	url = https://github.com/LiveCodeBench/LiveCodeBench.git
 [submodule "third-party/helm"]
 	path = third-party/helm
-	url = git@github.com:helm/helm.git
+	url = https://github.com/helm/helm.git
 [submodule "third-party/creative-writing-bench"]
 	path = third-party/creative-writing-bench
-	url = git@github.com:EQ-bench/creative-writing-bench.git
+	url = https://github.com/EQ-bench/creative-writing-bench.git
 [submodule "third-party/evalscope"]
 	path = third-party/evalscope
-	url = git@github.com:modelscope/evalscope.git
+	url = https://github.com/modelscope/evalscope.git
