@@ -9,7 +9,7 @@
 	url = https://github.com/LiveCodeBench/LiveCodeBench.git
 [submodule "third-party/helm"]
 	path = third-party/helm
-	url = https://github.com/helm/helm.git
+	url = https://github.com/stanford-crfm/helm.git
 [submodule "third-party/creative-writing-bench"]
 	path = third-party/creative-writing-bench
 	url = https://github.com/EQ-bench/creative-writing-bench.git
